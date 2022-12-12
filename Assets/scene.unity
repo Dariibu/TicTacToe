@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 106872347}
   - component: {fileID: 106872346}
+  - component: {fileID: 106872348}
   m_Layer: 0
   m_Name: manager
   m_TagString: Untagged
@@ -185,6 +186,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &106872348
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106872345}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 003dad1433be8924d970d1be34fd4366, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.292
+  m_Pitch: 2.96
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 72
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &208366084
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &324130712
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -462,6 +561,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &358904172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -585,6 +686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &482907275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -708,6 +811,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &633518675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1039,7 +1144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118578791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.43, y: -0.14, z: -8.280841}
+  m_LocalPosition: {x: -12.34, y: -0.14, z: -8.280841}
   m_LocalScale: {x: -3.1930711, y: 3.5353808, z: 5.398352}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1182,6 +1287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &1263819750
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1318,8 +1425,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 7.08
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1343,7 +1450,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395251848}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -2.36, y: 1.19, z: 10.37}
+  m_LocalPosition: {x: -5.03, y: 1.19, z: 10.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1421,6 +1528,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &1443667744
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1544,6 +1653,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &1531066635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1667,6 +1778,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &1567485206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1790,6 +1903,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptManager: {fileID: 106872346}
+  ps: {fileID: 5824889304569406434, guid: f10a36a3b35fcdd4c8ae58720f05d687, type: 3}
+  au: {fileID: 106872348}
 --- !u!212 &1676649100
 SpriteRenderer:
   m_ObjectHideFlags: 0
